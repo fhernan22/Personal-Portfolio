@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Full stack social media app that allows users to create and edit their profiles, create, update, read, and delete posts, comment, like, and dislike other users posts,  and receive notifications when other users react to their posts.",
     image: "/images/Postgram.png",
-    tags: ["React", "Express", "Firebase", "REST API", "CI/CD"],
+    tags: ["React", "Express", "Firebase", "REST API", "CI/CD", "Jira"],
     source: "https://github.com/fhernan22/PostGram-App",
     visit: "https://postgram-16bf2.web.app/",
     id: 0,
@@ -41,9 +41,24 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    year: 2017,
+    text: "Started my journey and got my first job as a Programming I Learning Assistant helping students learn the fundamental concepts of programming in Java",
+  },
+  {
+    year: 2018,
+    text: "Earned my first award as a game developer for creating a Virtual Reality experience that allowed users to interact with different models of eyes across species",
+  },
+  {
+    year: 2019,
+    text: "Worked as a research assistant conducting 3D Human-Computer Interaction experiments, developed educational video games, helped building my lab's website and worked on other personal projects",
+  },
+  {
+    year: 2020,
+    text: "Interned at Cerner where I designed and developed REST APIs using Ruby on Rails, learned test driven development principles using rspec and FactoryBot, and learned about the Software Engineering development cycle",
+  },
+  {
+    year: 2021,
+    text: "Graduated from College! Started taking Coursera's deep learning AI certification courses and started the next chapter of my career at BNY Mellon",
+  },
 ];

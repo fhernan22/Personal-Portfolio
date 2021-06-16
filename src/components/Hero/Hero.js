@@ -18,8 +18,8 @@ const Hero = () => (
         </SectionTitle>
         <SectionText>
           I am a creative developer who enjoys building full stack applications,
-          video games, neural networks, and anything that brings value to the
-          world!
+          video games, deep learning algorithms, and anything that brings value
+          to the world!
         </SectionText>
         <Button
           onClick={() => (window.location.href = "mailto:fhern103@fiu.edu")}

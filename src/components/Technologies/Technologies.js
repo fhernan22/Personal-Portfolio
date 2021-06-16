@@ -21,7 +21,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies. From Full-Stack web development
-      and game development to data science libraries
+      and game development to data science libraries.
     </SectionText>
     <List style={{ gridTemplateColumns: "repeat(4,1fr)" }}>
       <ListItem>
