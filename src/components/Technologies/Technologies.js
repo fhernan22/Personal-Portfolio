@@ -50,7 +50,7 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <SiTensorflow size="2.5rem" />
+          <SiTensorflow size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Machine Learning</ListTitle>
