@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import {
   BlogCard,
@@ -28,8 +29,23 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Img src={p.image} />
-            <TitleContent>
+            <div
+              style={{
+                overflow: "hidden",
+                width: "100%",
+                height: "227px",
+                position: "relative",
+              }}
+            >
+              <Image
+                src={p.image}
+                alt={p.alt}
+                layout="fill"
+                objectFit="cover"
+                priority
+              />
+            </div>
+            <TitleContent style={{ marginTop: "5px" }}>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
